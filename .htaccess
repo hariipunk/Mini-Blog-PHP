@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{THE_REQUEST} \s/+(index\.php)?\s [NC]
+RewriteRule ^index\.php$ / [L,R=301]
+
+RewriteRule ^([a-zA-Z0-9-]+)$ article.php?slug=$1 [L,QSA]
+
+RewriteCond %{REQUEST_URI} !^/uploads/
