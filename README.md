@@ -1,4 +1,5 @@
-# Halo saya membuat sebuah MiniBlog menggunakan PHP sebagai backend.
+# MiniBlog with PHP
+saya membuat sebuah mini blog sederhana yang memiliki beberapa fitur.
 
 # Fitur 
  * Membuat Artikel Premium
